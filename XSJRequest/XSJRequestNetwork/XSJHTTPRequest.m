@@ -15,7 +15,7 @@
     self = [super init];
     if (self) {
         NSDictionary *dicJson = [json isKindOfClass:[NSDictionary class]]?json:[self returnDictionaryWithData:json];
-        self.msg     = [dicJson objectForKey:@"msg"];
+        self.msg     =  [dicJson objectForKey:@"msg"];
         self.status  = [[dicJson objectForKey:@"status"] integerValue];
         self.data    = [dicJson objectForKey:@"data"];
         self.json    = dicJson;
