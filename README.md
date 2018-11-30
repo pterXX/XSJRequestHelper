@@ -1,2 +1,0 @@
-# XSJRequestHelper
-二次封装AFNetworking带缓存的网络请求框架
