@@ -130,7 +130,6 @@
 		1814FBAC21B0D8F500889AFB /* XSJRequest */ = {
 			isa = PBXGroup;
 			children = (
-				1814FBF521B0DFAB00889AFB /* UIDevice */,
 				1814FBED21B0DEE100889AFB /* XSJRequestHelper */,
 				1814FBEA21B0DEE100889AFB /* XSJRequestNetwork */,
 				1814FBAD21B0D8F500889AFB /* AppDelegate.h */,
@@ -176,6 +175,7 @@
 		1814FBED21B0DEE100889AFB /* XSJRequestHelper */ = {
 			isa = PBXGroup;
 			children = (
+				1814FBF521B0DFAB00889AFB /* UIDevice */,
 				1814FBEE21B0DEE100889AFB /* XSJNetworkCache.m */,
 				1814FBEF21B0DEE100889AFB /* XSJNetWorkHelper.m */,
 				1814FBF021B0DEE100889AFB /* XSJNetworkCache.h */,
